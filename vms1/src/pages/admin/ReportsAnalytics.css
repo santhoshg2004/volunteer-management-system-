@@ -1,0 +1,68 @@
+.admin-page-container {
+    padding: 40px;
+}
+
+.admin-page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #3b82f6;
+}
+
+.admin-content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.admin-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.stats-row {
+    display: flex;
+    gap: 30px;
+    font-size: 1.1rem;
+}
+
+.report-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.date-input {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+}
+
+.generate-button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart-placeholder {
+    height: 200px;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b7280;
+    border-radius: 5px;
+}

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #3b82f6;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-name {
+    font-size: 1rem;
+}
+
+.logout-button {
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: white;
+    color: #3b82f6;
+}
+
+.dashboard-main {
+    display: flex;
+    flex: 1;
+}
+
+.dashboard-sidebar {
+    width: 250px;
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 15px 10px;
+    font-size: 1rem;
+    color: #6b7280;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-menu li:hover {
+    background-color: #e2e8f0;
+    border-radius: 5px;
+}
+
+.dashboard-content {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.welcome-message {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.quick-stats-card {
+    grid-column: span 2;
+}
+
+.stat-row {
+    display: flex;
+    gap: 40px;
+    font-size: 1.2rem;
+    color: #6b7280;
+}
+
+.stat-value {
+    font-weight: bold;
+    color: #3b82f6;
+}
+
+.recent-notifications-card {
+    grid-column: span 2;
+}
+
+
+/* ...existing CSS... */
+
+.sidebar-menu li {
+    padding: 15px 10px;
+    font-size: 1rem;
+    color: #6b7280;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-menu li:hover {
+    background-color: #e2e8f0;
+    border-radius: 5px;
+}
+
+
+/* New style for the active menu item */
+
+.sidebar-menu li.active {
+    background-color: #e2e8f0;
+    color: #3b82f6;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* ...rest of the existing CSS... */
