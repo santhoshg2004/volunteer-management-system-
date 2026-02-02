@@ -18,19 +18,7 @@ Styling: CSS
 Build Tool: Vite
 Version Control: Git & GitHub
 
-📂 Project Structure
-volunteer-management-system/
-│
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Application pages
-│   ├── assets/          # Images and static files
-│   └── App.jsx          # Main application component
-│
-├── public/
-├── index.html
-├── package.json
-└── vite.config.js
+<img width="538" height="345" alt="image" src="https://github.com/user-attachments/assets/6f030a03-3e2b-4721-a16f-1006e3a5b6ba" />
 
 ▶️ Getting Started
 Prerequisites
